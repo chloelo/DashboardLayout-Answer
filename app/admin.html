@@ -6,10 +6,15 @@ current: admin
 ---
 
 <div class="admin container-fluid">
-  <h2>Admin</h2> 
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-    <span class="material-icons">add</span>Add New Admin</a>
-  </button>
+  <header class="header d-flex align-items-center">
+    <h2 class="mr-3">Admin</h2>
+    <button type="button" class="d-flex align-items-center mr-auto" data-toggle="modal" data-target="#staticBackdrop">
+      <span class="material-icons text-primary">add</span>Add New Admin</a>
+    </button>
+    <span class="material-icons mr-3">search</span>
+    <span class="material-icons">notifications_active</span>
+  </header>
+
   <!-- Modal -->
   <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
