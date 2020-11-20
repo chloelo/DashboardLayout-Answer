@@ -1,0 +1,117 @@
+---
+title: admin
+layout: ./app/layout.ejs
+engine: ejs
+current: admin
+---
+
+<div class="admin container-fluid">
+  <h2>Admin</h2> 
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+    <span class="material-icons">add</span>Add New Admin</a>
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Verified</th>
+        <th scope="col"></th>
+        </td>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">#1</th>
+        <td>Emir Wicks</td>
+        <td>emir.wicks@mail.com</td>
+        <td>Yes</td>
+        <td>
+          <span class="material-icons">
+            visibility
+          </span>
+          <span class="material-icons">
+            create
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#2</th>
+        <td>Zaina Goldsmith</td>
+        <td>zaina.goldsmith@mail.com</td>
+        <td>Yes</td>
+        <td>
+          <span class="material-icons">
+            visibility
+          </span>
+          <span class="material-icons">
+            create
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#3</th>
+        <td>Mahima Lopez</td>
+        <td>Mahima.Lopez@mail.com</td>
+        <td>Yes</td>
+        <td>
+          <span class="material-icons">
+            visibility
+          </span>
+          <span class="material-icons">
+            create
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#4</th>
+        <td>Pharrell Murray</td>
+        <td>Pharrell.Murray@mail.com</td>
+        <td>Yes</td>
+        <td>
+          <span class="material-icons">
+            visibility
+          </span>
+          <span class="material-icons">
+            create
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">#5</th>
+        <td>Annika Mcbride</td>
+        <td>Annika.Mcbride@mail.com</td>
+        <td>Yes</td>
+        <td>
+          <span class="material-icons">
+            visibility
+          </span>
+          <span class="material-icons">
+            create
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

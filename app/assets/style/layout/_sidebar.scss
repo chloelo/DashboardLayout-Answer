@@ -1,0 +1,46 @@
+.sidebar {
+  height: 100vh;
+  min-width: 296px;
+  width: 20%;
+  padding: 32px;
+  position: fixed;
+  &-nav {
+    padding-left: 0;
+    a {
+      color: $secondary;
+      font-size: 16px;
+    }
+  }
+  .txt {
+    margin-left: 16px;
+  }
+  .logo {
+    background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/logo-ANSWER.svg")
+      no-repeat center;
+    width: 151px;
+    height: 40px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .link {
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+  .user {
+    &-img {
+      width: 40px;
+      height: 40px;
+    }
+    &-name {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    &-email {
+      color: #0000009a;
+      font-size: 14px;
+    }
+  }
+}
