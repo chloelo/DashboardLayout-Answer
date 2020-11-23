@@ -1,0 +1,92 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: assignment
+---
+
+<div class="assignment container-fluid">
+  <header class="header d-flex align-items-center">
+    <h2 class="mr-3">Assignment</h2>
+    <div class="dropdown mr-auto ml-2">
+      <button class="btn d-flex" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        All Courses<i class="material-icons text-primary ml-1">expand_more</i>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Courses 1</a>
+        <a class="dropdown-item" href="#">Courses 2</a>
+        <a class="dropdown-item" href="#">Courses 3</a>
+      </div>
+    </div>
+    <span class="material-icons mr-3">search</span>
+    <span class="material-icons">notifications_active</span>
+  </header>
+  <div class="row">
+    <!--     左邊區塊 -->
+    <div class="col-4">
+      <!--     list group -->
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+          href="#list-home" role="tab" aria-controls="home">Home</a>
+
+        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+          href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+
+        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+          href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+
+        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+          href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+      </div>
+    </div>
+    <!-- 右邊區塊 -->
+    <div class="col-8">
+      <!--     list group 內容切換-->
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+          <!--         card -->
+          <div class="card">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img src="..." class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    <code>Cras</code> sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                    condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <hr>
+                <li class="media my-4">
+                  <img src="..." class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">2</div>
+        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">3</div>
+        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">4</div>
+      </div>
+      <!--     button -->
+      <a class="btn" href="#" role="button">Link</a>
+      <a class="btn" href="#" role="button">Link</a>
+      <input class="btn btn-outline-primary" type="submit" value="Submit">
+      <input class="btn btn-primary" type="submit" value="Reply">
+    </div>
+  </div>
+  <div class="">
+   
+  </div>
+</div>

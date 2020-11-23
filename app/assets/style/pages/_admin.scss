@@ -1,6 +1,23 @@
 .admin {
-  padding: 32px;
   .header {
     margin-bottom: 32px;
+  }
+  .btn-arrowIcon {
+    .material-icons {
+      transition: all 0.3s;
+    }
+    &[aria-expanded="true"] {
+      .material-icons {
+        transform: rotate(180deg);
+      }
+    }
+    &[aria-expanded="false"] {
+      .material-icons {
+        transform: rotate(0deg);
+      }
+    }
+  }
+  .font-sm {
+    font-size: 18px;
   }
 }
