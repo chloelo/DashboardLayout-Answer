@@ -1,7 +1,29 @@
-// .assignment {
-//   .dropdown-toggle {
-//     &:after {
-//       display: none;
-//     }
-//   }
-// }
+.assignment {
+  .list-group-item {
+    border-color: $primary-light;
+    cursor: pointer;
+  }
+  .list-group-item-action {
+    &.active {
+      color: $secondary;
+      background-color: $primary-light;
+      border: $primary-light;
+    }
+  }
+  .card-header {
+    background-color: $primary-light;
+  }
+  .media {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  code {
+    color: $primary;
+    background-color: $primary-light;
+  }
+  h5 {
+    font-size: 16px;
+  }
+}
