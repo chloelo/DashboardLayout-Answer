@@ -9,12 +9,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.d-flex {
-  display: flex;
-}
-.align-items-center {
-  align-items: center;
-}
+
 button {
   border: none;
   background-color: transparent;
@@ -22,9 +17,7 @@ button {
     outline: transparent;
   }
 }
-.text-center {
-  text-align: center;
-}
+
 body {
   font-family: Lato, "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei",
     "Helvetica Neue", Arial, sans-serif;
@@ -32,27 +25,10 @@ body {
   font-size: 16px;
 }
 
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 ul {
   list-style: none;
 }
-.section-space {
-  padding-top: 64px;
-  padding-bottom: 80px;
-  @include pad {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  @include mobile {
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-}
+
 main {
   margin-left: 296px;
   min-height: 100vh;
